@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function MyComponent() {
-  const [name, setName] = useState("Gueste");
+  const [name, setName] = useState("Guest");
   const [age, setAge] = useState(0);
   const [isEmployed, setIsEmployed] = useState(false)
 
