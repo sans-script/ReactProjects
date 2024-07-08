@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body{
+  background-image: url(assets/starry_night.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  backdrop-filter: blur(4px);
+}
+.clock-container {
+
+
+}
+.clock{
+  color: rgba(250, 248, 232, 0.71);
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: "Handlee", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
